@@ -1,0 +1,299 @@
+{
+  "brand": "Red Phoenix",
+  "meta": {
+    "title": "Red Phoenix | China-to-Syria Supply Chain & Project Execution",
+    "description": "End-to-end sourcing, supply and execution of sports venues, gyms, offices, restaurants and industrial projects from China to Syria."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "Services",
+    "contact": "Contact Us"
+  },
+  "cta": {
+    "quote": "Request a Quote"
+  },
+  "hero": {
+    "ctaPrimary": "Start your project",
+    "ctaSecondary": "Explore services",
+    "slides": {
+      "port": {
+        "titleLead": "Precision sourcing,",
+        "titleHighlight": "seamless delivery.",
+        "sub": "We vet manufacturers, manage quality control, and ship your equipment from China to Syria on schedule."
+      },
+      "padel": {
+        "titleLead": "From blueprint to",
+        "titleHighlight": "game day.",
+        "sub": "Our teams install and fit out sports venues, gyms and commercial spaces from the ground up."
+      },
+      "street": {
+        "titleLead": "Your gateway to",
+        "titleHighlight": "Chinese markets.",
+        "sub": "Red Phoenix connects you directly to trusted manufacturers and suppliers across China."
+      }
+    },
+    "carousel": { "goTo": "Go to slide {n}" },
+    "verticals": {
+      "sports": "Sports & Recreation",
+      "fitness": "Fitness & Wellness",
+      "commercial": "Commercial & Enterprise",
+      "industrial": "Industrial"
+    }
+  },
+  "verticalsShowcase": {
+    "title": "Four sectors, one execution partner",
+    "subtitle": "Whatever you're building, we source it, ship it, and put it in place."
+  },
+  "reach": {
+    "title": "Two countries. One continuous chain.",
+    "subtitle": "Teams on the ground at both ends keep sourcing, quality control, shipping and installation connected."
+  },
+  "sectionNav": {
+    "goTo": "Go to section {n}",
+    "scrollDown": "Scroll down"
+  },
+  "footer": {
+    "tagline": "Your end-to-end supply chain and execution partner between China and Syria.",
+    "china": "China",
+    "chinaCity": "Office address TBD",
+    "syria": "Syria",
+    "syriaCity": "Office address TBD",
+    "rights": "All rights reserved."
+  },
+  "pages": {
+    "about": {
+      "eyebrow": "Who we are",
+      "title": "About Red Phoenix",
+      "intro": "A supply chain and execution partner headquartered in both China and Syria, turning sourcing and logistics into finished projects on the ground.",
+      "coreEthos": "Core Ethos",
+      "methodologyTitle": "Methodology",
+      "methodologyDesc": "From raw origin points to execution on the ground, structured precisely at every single milestone.",
+      "globalOperations": "Global Operations",
+      "stepsTitle": "How we work",
+      "steps": {
+        "sourcing": {
+          "title": "Sourcing",
+          "text": "We find and vet manufacturers and suppliers in China for your exact specification and budget."
+        },
+        "planning": {
+          "title": "Planning",
+          "text": "Scope, schedules, shipping and site requirements are planned before anything leaves the factory."
+        },
+        "supplying": {
+          "title": "Supplying",
+          "text": "We manage procurement, quality checks and delivery from China to your site in Syria."
+        },
+        "executing": {
+          "title": "Executing",
+          "text": "Our teams on the ground handle installation and fit-out through to handover."
+        }
+      },
+      "valuesTitle": "What we stand for",
+      "valuesSubtitle": "The principles behind every project, regardless of sector.",
+      "values": {
+        "reliability": {
+          "title": "Reliability",
+          "text": "We commit to realistic timelines and hold to them, so your project stays on schedule."
+        },
+        "transparency": {
+          "title": "Transparency",
+          "text": "You always know the status of your order, your shipment, and your budget."
+        },
+        "partnership": {
+          "title": "Partnership",
+          "text": "We work as an extension of your team, not just a vendor filling an order."
+        },
+        "craftsmanship": {
+          "title": "Craftsmanship",
+          "text": "From equipment selection to final installation, the details are handled with care."
+        }
+      },
+      "officesTitle": "On the ground in both countries",
+      "chinaOfficeNote": "Sourcing, factory relationships and quality control.",
+      "syriaOfficeNote": "Site execution, installation and client relationships."
+    },
+    "services": {
+      "eyebrow": "What we deliver",
+      "title": "Our Services",
+      "intro": "End-to-end supply and execution across sectors and industries.",
+      "cta": "Discuss your project",
+      "allCategories": "All Sectors",
+      "categories": {
+        "sports-wellness": "Sports & Wellness",
+        "interior": "Interior & Office",
+        "hospitality": "Hospitality",
+        "branding": "Branding & Signage",
+        "supply": "Raw Materials",
+        "industrial": "Industrial Heavy Equipment",
+        "tech": "Electronics & Tech"
+      },
+      "items": {
+        "sports-facilities": {
+          "title": "Sports Facilities & Padel Courts",
+          "category": "Sports & Wellness",
+          "description": "From a single padel court to a full athletic complex, we handle equipment, materials and professional installation.",
+          "bullets": [
+            "Padel courts",
+            "Basketball courts",
+            "Full athletic venue setups"
+          ]
+        },
+        "office-furniture": {
+          "title": "Office Furniture & Corporate Fit-Outs",
+          "category": "Interior & Office",
+          "description": "Comprehensive workspace furniture, ergonomic setups, and architectural finishes sourced directly from elite manufacturers.",
+          "bullets": [
+            "Ergonomic workstations",
+            "Executive boardrooms",
+            "Full office partitioning"
+          ]
+        },
+        "restaurant-setup": {
+          "title": "Restaurant & Café Turnkey Setups",
+          "category": "Hospitality",
+          "description": "Commercial kitchen appliances, custom dining furniture, and interior components tailored for hospitality venues.",
+          "bullets": [
+            "Commercial kitchen machinery",
+            "Custom dining furniture",
+            "Bar and counter fit-outs"
+          ]
+        },
+        "advertising-signage": {
+          "title": "Advertising & Visual Signage",
+          "category": "Branding & Signage",
+          "description": "High-impact outdoor and indoor architectural signage, illuminated displays, and complete corporate branding systems.",
+          "bullets": [
+            "LED illuminated signs",
+            "Retail display units",
+            "Architectural branding elements"
+          ]
+        },
+        "raw-materials": {
+          "title": "Raw Materials Sourcing",
+          "category": "Raw Materials",
+          "description": "Industrial-grade raw materials, construction elements, and specialized manufacturing inputs delivered reliably to your location.",
+          "bullets": [
+            "Construction inputs",
+            "Specialized manufacturing materials",
+            "Bulk structural components"
+          ]
+        },
+        "industrial-heavy-equipment": {
+          "title": "Industrial Heavy Equipment & Machinery",
+          "category": "Industrial Heavy Equipment",
+          "description": "High-performance production lines, manufacturing machinery, and heavy industrial gear inspected and shipped securely.",
+          "bullets": [
+            "Automated production lines",
+            "Heavy manufacturing machinery",
+            "Industrial tools and gear"
+          ]
+        },
+        "electronics": {
+          "title": "Electronics & Smart Technology",
+          "category": "Electronics & Tech",
+          "description": "Commercial electronics, smart building components, automation control units, and IT infrastructure hardware.",
+          "bullets": [
+            "Smart building automation",
+            "Commercial display screens",
+            "Security and networking hardware"
+          ]
+        }
+      }
+    },
+    "contact": {
+      "eyebrow": "Let's talk",
+      "title": "Contact Us",
+      "intro": "Tell us about your project and we will get back to you with a quote.",
+      "name": "Full name",
+      "namePlaceholder": "Your full name",
+      "email": "Email",
+      "phone": "Phone (optional)",
+      "vertical": "Project type",
+      "select": "Select a sector",
+      "message": "Project details",
+      "messagePlaceholder": "Tell us about your project, location and timeline...",
+      "submit": "Send request",
+      "invalidEmail": "Please enter a valid email address.",
+      "sent": "Thank you. We have received your request and will be in touch soon.",
+      "trustTitle": "Other ways to reach us",
+      "responseTitle": "Response time",
+      "responseText": "We reply to new project enquiries within one business day.",
+      "emailAddress": "hello@redphoenix.example",
+      "whatsapp": "+00 000 000 0000",
+      "officesTitle": "Offices"
+    },
+    "notFound": {
+      "title": "Page not found",
+      "body": "The page you are looking for does not exist or has moved.",
+      "home": "Back to home"
+    }
+  },
+  "languageSwitcher": {
+    "label": "Language"
+  },
+  "trust": {
+    "stats": {
+      "countries": { "value": "2", "label": "Countries with on-the-ground teams" },
+      "verticals": { "value": "7", "label": "Sectors covered end-to-end" },
+      "contact": { "value": "1", "label": "Single point of contact per project" },
+      "process": { "value": "100%", "label": "Sourcing-to-install, fully managed" }
+    }
+  },
+  "whyChooseUs": {
+    "title": "Why partners choose Red Phoenix",
+    "subtitle": "A single accountable partner for the whole journey — not a factory contact on one end and a local contractor on the other.",
+    "items": {
+      "onGround": {
+        "title": "Teams on the ground",
+        "text": "Bilingual staff in China and Syria mean nothing gets lost between the factory and the finished site."
+      },
+      "qualityControl": {
+        "title": "Quality control, verified",
+        "text": "Suppliers are vetted and inspected before goods ship, not discovered after they arrive."
+      },
+      "singleContact": {
+        "title": "One point of contact",
+        "text": "You deal with one project lead from sourcing through handover, not a different name at every stage."
+      },
+      "transparentProcess": {
+        "title": "A transparent process",
+        "text": "Clear milestones for sourcing, planning, supply and execution, so you always know where your project stands."
+      }
+    }
+  },
+  "testimonial": {
+    "quote": "Red Phoenix managed our fit-out from the factory floor to final installation without us needing a local contractor at all.",
+    "role": "Facilities Director, Commercial Fit-Out Client"
+  },
+  "ctaBand": {
+    "title": "Have a project in mind?",
+    "text": "Tell us what you're building and we'll put together a scope and quote.",
+    "button": "Request a quote"
+  },
+  "faq": {
+    "title": "Common questions",
+    "items": {
+      "leadTime": {
+        "q": "How long does a typical project take?",
+        "a": "It depends on scope and sector — a single equipment order moves faster than a full venue build-out. We give you a realistic timeline once we understand your project."
+      },
+      "customs": {
+        "q": "Who handles shipping and customs?",
+        "a": "We manage logistics and customs coordination from the Chinese factory to your site in Syria, so you are not dealing with freight forwarders directly."
+      },
+      "projectSize": {
+        "q": "Is there a minimum project size?",
+        "a": "We take on everything from a single equipment order to a full venue or facility build."
+      },
+      "afterSales": {
+        "q": "What happens after installation?",
+        "a": "We remain your point of contact for warranty issues, spare parts and follow-on equipment orders."
+      },
+      "payment": {
+        "q": "How does payment work?",
+        "a": "Projects are typically billed against agreed milestones — sourcing, shipment and installation — rather than a single upfront payment."
+      }
+    }
+  }
+}

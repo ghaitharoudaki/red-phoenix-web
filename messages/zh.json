@@ -1,0 +1,299 @@
+{
+  "brand": "红凤凰",
+  "meta": {
+    "title": "红凤凰 | 中国至叙利亚供应链与项目执行",
+    "description": "一站式承接运动场馆、健身房、办公空间、餐厅及工业项目的采购、供应与落地执行,服务中国至叙利亚。"
+  },
+  "nav": {
+    "home": "首页",
+    "about": "关于我们",
+    "services": "服务",
+    "contact": "联系我们"
+  },
+  "cta": {
+    "quote": "获取报价"
+  },
+  "hero": {
+    "ctaPrimary": "启动您的项目",
+    "ctaSecondary": "了解服务",
+    "slides": {
+      "port": {
+        "titleLead": "精准采购,",
+        "titleHighlight": "交付无忧。",
+        "sub": "我们负责筛选供应商、把控质量,并按时将设备从中国运抵叙利亚。"
+      },
+      "padel": {
+        "titleLead": "从设计图纸到",
+        "titleHighlight": "开赛当天。",
+        "sub": "我们的团队从零开始负责运动场馆、健身房及商业空间的安装与装修。"
+      },
+      "street": {
+        "titleLead": "您通往",
+        "titleHighlight": "中国市场的门户。",
+        "sub": "红凤凰为您直接对接中国各地值得信赖的制造商与供应商。"
+      }
+    },
+    "carousel": { "goTo": "跳转到第 {n} 张幻灯片" },
+    "verticals": {
+      "sports": "体育与休闲",
+      "fitness": "健身与健康",
+      "commercial": "商业与企业",
+      "industrial": "工业"
+    }
+  },
+  "verticalsShowcase": {
+    "title": "四大领域,一个执行伙伴",
+    "subtitle": "无论您在建设什么,我们都负责采购、运输并落地安装。"
+  },
+  "reach": {
+    "title": "两个国家,一条完整链条",
+    "subtitle": "两端的本地团队让采购、质检、运输与安装环环相扣。"
+  },
+  "sectionNav": {
+    "goTo": "跳转到第 {n} 部分",
+    "scrollDown": "向下滚动"
+  },
+  "footer": {
+    "tagline": "您在中国与叙利亚之间的一站式供应链与项目执行伙伴。",
+    "china": "中国",
+    "chinaCity": "地址待定",
+    "syria": "叙利亚",
+    "syriaCity": "地址待定",
+    "rights": "版权所有。"
+  },
+  "pages": {
+    "about": {
+      "eyebrow": "关于我们",
+      "title": "关于红凤凰",
+      "intro": "我们是总部设在中国和叙利亚的供应链与项目执行伙伴,将采购与物流转化为现场落地的完整项目。",
+      "coreEthos": "核心理念",
+      "methodologyTitle": "工作方法",
+      "methodologyDesc": "从原始产地到现场执行，在每个关键节点上都进行精准布局。",
+      "globalOperations": "全球运营",
+      "stepsTitle": "我们的工作方式",
+      "steps": {
+        "sourcing": {
+          "title": "采购",
+          "text": "按您的规格与预算,在中国筛选并评估制造商和供应商。"
+        },
+        "planning": {
+          "title": "规划",
+          "text": "在货物出厂之前,先规划好范围、进度、运输和现场要求。"
+        },
+        "supplying": {
+          "title": "供应",
+          "text": "负责采购、质量检验,以及从中国到叙利亚项目现场的交付。"
+        },
+        "executing": {
+          "title": "执行",
+          "text": "当地团队负责安装与装修,直至项目交付。"
+        }
+      },
+      "valuesTitle": "我们坚持的原则",
+      "valuesSubtitle": "无论哪个领域,每个项目背后的共同准则。",
+      "values": {
+        "reliability": {
+          "title": "可靠",
+          "text": "我们承诺切实可行的时间表并严格遵守,确保项目按期推进。"
+        },
+        "transparency": {
+          "title": "透明",
+          "text": "您可随时了解订单、发货与预算的最新状态。"
+        },
+        "partnership": {
+          "title": "伙伴关系",
+          "text": "我们如同您团队的延伸,而不仅仅是执行订单的供应商。"
+        },
+        "craftsmanship": {
+          "title": "精工细作",
+          "text": "从设备选型到最终安装,每个细节都用心把关。"
+        }
+      },
+      "officesTitle": "两国均有本地团队驻场",
+      "chinaOfficeNote": "负责采购、工厂关系维护与质量把控。",
+      "syriaOfficeNote": "负责现场执行、安装与客户关系维护。"
+    },
+    "services": {
+      "eyebrow": "我们提供的服务",
+      "title": "我们的服务",
+      "intro": "跨行业与领域的端到端供应链与项目执行。",
+      "cta": "洽谈您的项目",
+      "allCategories": "所有行业",
+      "categories": {
+        "sports-wellness": "体育与健康",
+        "interior": "室内与办公",
+        "hospitality": "酒店餐饮",
+        "branding": "品牌与标牌",
+        "supply": "原材料",
+        "industrial": "工业重型设备",
+        "tech": "电子与科技"
+      },
+      "items": {
+        "sports-facilities": {
+          "title": "体育场馆与帕德尔球场",
+          "category": "体育与健康",
+          "description": "从单一帕德尔球场到完整运动综合体，我们负责设备、材料与专业安装。",
+          "bullets": [
+            "帕德尔球场",
+            "篮球场",
+            "完整运动场馆配置"
+          ]
+        },
+        "office-furniture": {
+          "title": "办公家具与企业空间装修",
+          "category": "室内与办公",
+          "description": "直接从优质制造商处采购的全面办公空间家具、人体工学配置与建筑装饰。",
+          "bullets": [
+            "人体工学工作站",
+            "行政会议室",
+            "全套办公室隔断"
+          ]
+        },
+        "restaurant-setup": {
+          "title": "餐厅与咖啡厅整体配套",
+          "category": "酒店餐饮",
+          "description": "专为酒店餐饮场所量身定制的商用厨房设备、定制餐饮家具及室内组件。",
+          "bullets": [
+            "商用厨房机械",
+            "定制餐饮家具",
+            "酒吧与吧台配套"
+          ]
+        },
+        "advertising-signage": {
+          "title": "广告招牌与视觉标牌",
+          "category": "品牌与标牌",
+          "description": "具有视觉冲击力的户外和室内建筑标牌、发光显示屏及完整的企业品牌识别系统。",
+          "bullets": [
+            "LED发光字招牌",
+            "零售展示陈列柜",
+            "建筑品牌识别元素"
+          ]
+        },
+        "raw-materials": {
+          "title": "原材料采购",
+          "category": "原材料",
+          "description": "工业级原材料、建筑构件以及专业的制造投入，可靠地运送至您的指定地点。",
+          "bullets": [
+            "建筑施工原料",
+            "专业制造材料",
+            "大宗结构组件"
+          ]
+        },
+        "industrial-heavy-equipment": {
+          "title": "工业重型设备与机械",
+          "category": "工业重型设备",
+          "description": "经过严格检验并安全海运的高性能生产线、制造机械以及重型工业装备。",
+          "bullets": [
+            "自动化生产线",
+            "重型制造机械",
+            "工业工具与装备"
+          ]
+        },
+        "electronics": {
+          "title": "电子产品与智能科技",
+          "category": "电子与科技",
+          "description": "商业电子产品、智能建筑组件、自动化控制单元以及IT基础设施硬件。",
+          "bullets": [
+            "智能楼宇自动化",
+            "商业显示屏幕",
+            "安防与网络硬件"
+          ]
+        }
+      }
+    },
+    "contact": {
+      "eyebrow": "联系我们",
+      "title": "联系我们",
+      "intro": "请告诉我们您的项目情况,我们将尽快回复报价。",
+      "name": "姓名",
+      "namePlaceholder": "您的全名",
+      "email": "电子邮箱",
+      "phone": "电话(选填)",
+      "vertical": "项目类型",
+      "select": "请选择领域",
+      "message": "项目详情",
+      "messagePlaceholder": "请告诉我们您的项目、地点和时间安排...",
+      "submit": "提交需求",
+      "invalidEmail": "请输入有效的电子邮箱地址。",
+      "sent": "谢谢。我们已收到您的需求,将尽快与您联系。",
+      "trustTitle": "其他联系方式",
+      "responseTitle": "响应时间",
+      "responseText": "我们会在一个工作日内回复新的项目咨询。",
+      "emailAddress": "hello@redphoenix.example",
+      "whatsapp": "+00 000 000 0000",
+      "officesTitle": "办公地点"
+    },
+    "notFound": {
+      "title": "页面未找到",
+      "body": "您访问的页面不存在或已被移动。",
+      "home": "返回首页"
+    }
+  },
+  "languageSwitcher": {
+    "label": "语言"
+  },
+  "trust": {
+    "stats": {
+      "countries": { "value": "2", "label": "两国均设有本地团队" },
+      "verticals": { "value": "7", "label": "一站式覆盖四大领域" },
+      "contact": { "value": "1", "label": "每个项目仅需一个对接人" },
+      "process": { "value": "100%", "label": "从采购到安装全程管理" }
+    }
+  },
+  "whyChooseUs": {
+    "title": "客户为何选择红凤凰",
+    "subtitle": "从始至终由同一个负责团队跟进——而不是工厂端一个联系人、本地施工再另找一方。",
+    "items": {
+      "onGround": {
+        "title": "两国均有本地团队",
+        "text": "中国和叙利亚均配备双语团队,确保工厂与现场之间信息不遗漏。"
+      },
+      "qualityControl": {
+        "title": "可核实的质量把控",
+        "text": "供应商在发货前即经过筛选与检验,而非等货物到达后才发现问题。"
+      },
+      "singleContact": {
+        "title": "单一对接人",
+        "text": "从采购到交付,您始终对接同一位项目负责人,而非每个阶段更换联系人。"
+      },
+      "transparentProcess": {
+        "title": "透明的项目流程",
+        "text": "采购、规划、供应与执行各阶段节点清晰,让您随时了解项目进度。"
+      }
+    }
+  },
+  "testimonial": {
+    "quote": "红凤凰全程负责了我们项目从工厂到最终安装的落地执行,我们完全不需要另找本地施工方。",
+    "role": "设施总监,商业装修客户"
+  },
+  "ctaBand": {
+    "title": "已经有项目构想了吗?",
+    "text": "告诉我们您想实现的项目,我们会为您制定方案与报价。",
+    "button": "获取报价"
+  },
+  "faq": {
+    "title": "常见问题",
+    "items": {
+      "leadTime": {
+        "q": "一个项目通常需要多长时间?",
+        "a": "这取决于项目范围与领域——单一设备订单会比整个场馆建设更快完成。了解您的项目后,我们会给出切实的时间表。"
+      },
+      "customs": {
+        "q": "运输与清关由谁负责?",
+        "a": "我们负责从中国工厂到您叙利亚现场的物流与清关协调,您无需直接对接货运代理。"
+      },
+      "projectSize": {
+        "q": "项目是否有最低金额要求?",
+        "a": "从单一设备订单到整体场馆或设施建设,我们均可承接。"
+      },
+      "afterSales": {
+        "q": "安装完成后会怎样?",
+        "a": "我们仍是您在保修、备件及后续设备订购方面的对接方。"
+      },
+      "payment": {
+        "q": "付款方式是怎样的?",
+        "a": "项目通常按约定节点分期结算——采购、发货与安装,而非一次性预付全款。"
+      }
+    }
+  }
+}
