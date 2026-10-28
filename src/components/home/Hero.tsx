@@ -35,7 +35,8 @@ export default function Hero() {
   return (
     <section
       data-snap-section
-      className="relative isolate min-h-screen overflow-hidden bg-ink text-white"
+      className="relative isolate min-h-[min(760px,100svh)] overflow-hidden bg-ink text-white sm:min-h-screen"
+      aria-label="Featured projects"
       onMouseEnter={() => setPaused(true)}
       onMouseLeave={() => setPaused(false)}
     >
@@ -52,7 +53,7 @@ export default function Hero() {
       <div className="absolute inset-0 bg-gradient-to-b from-ink/80 via-ink/60 to-ink/90" aria-hidden />
 
       {/* text + CTAs, each slide is a full self-contained block so it always sizes correctly */}
-      <div className="relative z-[1] mx-auto grid min-h-screen max-w-7xl px-4 py-24 sm:px-6">
+      <div className="relative z-[1] mx-auto grid min-h-[min(760px,100svh)] max-w-7xl px-4 py-24 sm:min-h-screen sm:px-6">
         {SLIDES.map((slide, i) => (
           <div
             key={slide.key}
@@ -61,21 +62,21 @@ export default function Hero() {
             }`}
             aria-hidden={i !== index}
           >
-            <h1 className="font-display max-w-2xl text-4xl font-bold leading-[1.1] sm:text-5xl md:text-6xl">
+            <h1 aria-live="polite" className="font-display max-w-2xl text-[clamp(2.4rem,7vw,4.75rem)] font-bold leading-[1.02] tracking-[-0.04em]">
               {t(`slides.${slide.key}.titleLead`)}{' '}
-              <span className="bg-gradient-to-r from-phoenix via-ember to-phoenix bg-[length:200%_auto] bg-clip-text text-transparent">
+              <span className="text-ember">
                 {t(`slides.${slide.key}.titleHighlight`)}
               </span>
             </h1>
             <p className="mt-6 max-w-xl text-lg leading-relaxed text-white/80">
               {t(`slides.${slide.key}.sub`)}
             </p>
-            <div className="mt-10 flex flex-wrap gap-4">
-              <Link href="/contact" className="group inline-flex items-center gap-2 rounded-full bg-phoenix px-7 py-3.5 font-semibold transition-all duration-300 hover:bg-phoenix/90 hover:shadow-lg hover:shadow-phoenix/30 active:scale-95">
+            <div className="mt-8 flex flex-col gap-3 sm:mt-10 sm:flex-row sm:items-center sm:gap-4">
+              <Link href="/contact" className="group inline-flex min-h-12 items-center justify-center gap-2 rounded-full bg-phoenix px-7 py-3.5 font-semibold transition-all duration-300 hover:bg-phoenix/90 hover:shadow-lg hover:shadow-phoenix/30 active:scale-[.98]">
                 {t('ctaPrimary')}
                 <span className="inline-block transition-transform duration-300 rtl:-scale-x-100 group-hover:translate-x-1 rtl:group-hover:-translate-x-1" aria-hidden>→</span>
               </Link>
-              <Link href="/services" className="inline-flex rounded-full border border-white/30 px-7 py-3.5 font-semibold backdrop-blur-sm transition-colors duration-300 hover:bg-white/10">
+              <Link href="/services" className="inline-flex min-h-12 items-center justify-center rounded-full border border-white/30 px-7 py-3.5 font-semibold transition-colors duration-300 hover:bg-white/10">
                 {t('ctaSecondary')}
               </Link>
             </div>
@@ -84,7 +85,7 @@ export default function Hero() {
       </div>
 
       {/* dots */}
-      <div className="absolute inset-x-0 bottom-6 z-10 flex justify-center gap-2">
+      <div className="absolute inset-x-0 bottom-7 z-10 flex justify-center gap-3 sm:bottom-8">
         {SLIDES.map((_, i) => (
           <button
             key={i}
@@ -92,8 +93,8 @@ export default function Hero() {
             onClick={() => setIndex(i)}
             aria-label={t('carousel.goTo', { n: i + 1 })}
             aria-current={i === index}
-            className={`h-1.5 rounded-full transition-all duration-300 ${
-              i === index ? 'w-6 bg-white' : 'w-1.5 bg-white/40 hover:bg-white/70'
+            className={`min-h-11 rounded-full transition-all duration-300 ${
+              i === index ? 'w-8 bg-white' : 'w-8 bg-white/40 hover:bg-white/70'
             }`}
           />
         ))}
