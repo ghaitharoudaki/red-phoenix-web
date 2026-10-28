@@ -1,5 +1,6 @@
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import Image from 'next/image';
+import { Link } from '@/i18n/navigation';
 import Reveal from '@/components/ui/Reveal';
 import FAQ from '@/components/ui/FAQ';
 import CtaBand from '@/components/ui/CtaBand';
@@ -79,11 +80,11 @@ export default async function ServicesPage({ params }: { params: Promise<{ local
   }));
 
   return (
-    <div data-services-page className="min-h-screen bg-paper text-ink pt-32 pb-0">
+    <div data-services-page className="min-h-screen bg-paper pb-0 pt-24 text-ink sm:pt-32">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         
         {/* Main 2-Column Editorial Grid Layout */}
-        <div className="grid gap-16 lg:grid-cols-[1fr_2fr] lg:items-start">
+        <div className="grid gap-12 lg:grid-cols-[minmax(240px,1fr)_minmax(0,2fr)] lg:items-start lg:gap-16">
           
           {/* Left Column: Sticky Title & Filter Navigation */}
           <div className="lg:sticky lg:top-32">
@@ -91,7 +92,7 @@ export default async function ServicesPage({ params }: { params: Promise<{ local
               <span className="text-xs font-semibold uppercase tracking-widest text-phoenix">
                 {t('eyebrow')}
               </span>
-              <h1 className="mt-3 font-display text-4xl font-bold sm:text-6xl tracking-tight text-ink">
+              <h1 className="mt-3 font-display text-4xl font-bold tracking-[-0.04em] text-ink sm:text-6xl">
                 {t('title')}
               </h1>
             </Reveal>
@@ -148,12 +149,12 @@ export default async function ServicesPage({ params }: { params: Promise<{ local
                     <p className="text-sm sm:text-base leading-relaxed text-ink/75 font-light">
                       {service.description}
                     </p>
-                    <a
+                    <Link
                       href="/contact"
-                      className="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-phoenix hover:underline"
+                      className="inline-flex min-h-11 items-center gap-2 text-xs font-bold uppercase tracking-widest text-phoenix hover:underline"
                     >
                       {t('cta')}
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>

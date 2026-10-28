@@ -5,7 +5,7 @@ import Reveal from './Reveal';
 export default function CtaBand() {
   const t = useTranslations('ctaBand');
   return (
-    <section className="relative isolate overflow-hidden bg-phoenix py-32 text-center text-white">
+    <section className="relative isolate overflow-hidden bg-phoenix py-20 text-center text-white sm:py-28">
       <div className="pointer-events-none absolute inset-0 -z-10" aria-hidden>
         <div
           className="absolute inset-0 opacity-[0.08]"
@@ -15,10 +15,10 @@ export default function CtaBand() {
       </div>
 
       <div className="mx-auto w-full max-w-5xl px-4 sm:px-6">
-        <Reveal><h2 className="font-display text-5xl font-bold sm:text-7xl">{t('title')}</h2></Reveal>
-        <Reveal delay={150}><p className="mx-auto mt-6 max-w-2xl text-xl text-white/90">{t('text')}</p></Reveal>
+        <Reveal><h2 className="font-display text-[clamp(2.75rem,7vw,5.5rem)] font-bold leading-[1.02] tracking-[-0.04em]">{t('title')}</h2></Reveal>
+        <Reveal delay={150}><p className="mx-auto mt-5 max-w-2xl text-lg leading-relaxed text-white/90 sm:text-xl">{t('text')}</p></Reveal>
         <Reveal delay={300}>
-          <Link href="/contact" className="mt-12 inline-flex rounded-full bg-white px-10 py-5 font-bold text-phoenix transition-all duration-300 hover:scale-105 hover:shadow-2xl active:scale-95 text-lg">
+          <Link href="/contact" className="mt-10 inline-flex min-h-14 items-center rounded-full bg-white px-8 py-4 text-lg font-bold text-phoenix transition-all duration-300 hover:scale-105 hover:shadow-2xl active:scale-[.98] sm:px-10 sm:py-5">
             {t('button')}
           </Link>
         </Reveal>
